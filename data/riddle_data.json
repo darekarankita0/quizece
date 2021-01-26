@@ -1,0 +1,72 @@
+[
+     {
+        "riddle"       : "This thing all things devours: Birds, beasts, trees, flowers; Gnaws iron, bites steel; Grinds hard stones to meal; Slays king, ruins town, And beats high mountain down",
+        "answer"       : "Time",
+        "url"          : "1",
+        "image_source" : "static/img/riddle-1.png",
+        "original_source": "http://img.playbuzz.com/image/upload/f_auto,fl_lossy,q_auto/cdn/79003510-1e28-4caa-8067-0f850a1b30bb/20b6a5af-2be2-4592-81b1-0b27045fa05c.jpg"
+    },
+      {
+        "riddle"       : "What has roots as nobody sees, Is taller than trees, Up up it goes, And yet never grows?",
+        "answer"       : "Mountain",
+        "url"          : "2",
+        "image_source" : "static/img/riddle-2.png",
+        "original_source": "http://78.media.tumblr.com/f1eb583b52d43019744de0687f9f7589/tumblr_o8ho9omAB21qh5xqho3_1280.jpg"
+    },
+      {
+        "riddle"       : "What has a bed but doesn’t sleep and a mouth but never eats?",
+        "answer"       : "River",
+        "url"          : "3",
+        "image_source" : "static/img/riddle-3.png",
+        "original_source": "http://i0.kym-cdn.com/photos/images/original/000/413/190/501.jpg"
+    },
+     {
+        "riddle"       : "What has a soul but doesn’t live and a tongue but can’t taste?",
+        "answer"       : "Shoe",
+        "url"          : "4",
+        "image_source" :"static/img/riddle-4.png" ,
+        "original_source": "http://i0.kym-cdn.com/photos/images/original/000/265/669/dd2.jpg"
+    },
+      {
+        "riddle"       : "Alive without breath, As cold as death; Never thirsty, ever drinking, All in mail never clinking",
+        "answer"       : "Fish",
+        "url"          : "5",
+        "image_source" : "static/img/riddle-5.png",
+        "original_source": "https://pbs.twimg.com/media/CQZycuOVAAA82_8.jpg"
+    },
+      {
+        "riddle"       : "It cannot be seen, Cannot be felt, Cannot be heard, Cannot be smelt. It lies behind stars and under hills, And empty holes it fills. It comes first and follows after, Ends life, kills laughter",
+        "answer"       : "Dark",
+        "url"          : "6",
+        "image_source" : "static/img/riddle-6.png",
+        "original_source": "http://img.playbuzz.com/image/upload/f_auto,fl_lossy,q_auto/cdn/79003510-1e28-4caa-8067-0f850a1b30bb/33c574a5-1a1b-49f7-8f57-7476d47d967f.jpg"
+    },
+     {
+        "riddle"       : "Thirty white horses on a red hill, First they champ, Then they stamp, Then they stand still. ",
+        "answer"       : "Teeth",
+        "url"          : "7",
+        "image_source" : "static/img/riddle-7.png",
+        "original_source": "http://images.mocpages.com/user_images/47094/1369141220m_SPLASH.jpg"
+    },
+     {
+        "riddle"       : "A box without hinges, key or lid, Yet golden treasure inside is hid.",
+        "answer"       : "Egg",
+        "url"          : "8",
+        "image_source" : "static/img/riddle-8.png",
+        "original_source": "http://7428.net/wp-content/uploads/2013/04/Treasure-Box-4.jpg"
+    },
+    {
+        "riddle"       : "Voiceless it cries, Wingless flutters, Toothless bites, Mouthless mutters.",
+        "answer"       : "Wind",
+        "url"          : "9",
+        "image_source" : "static/img/riddle-9.png",
+        "original_source": "https://booknvolume.files.wordpress.com/2013/12/wind.jpg"
+    },
+    {
+         "riddle"       : "What is easy to spot but hard to find?",
+         "answer"       : "Talent",
+         "url"          : "10",
+         "image_source" : "static/img/riddle-10.png",
+         "original_source": "http://strategistgroup.files.wordpress.com/2011/08/tm-image1.jpg"
+    }
+]

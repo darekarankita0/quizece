@@ -1,0 +1,39 @@
+{% extends 'base.html' %} {% block content %}
+<div id="results">
+<header>
+    <div class="col-xs-12">
+        <div class="page-title">
+            <h1>Riddle Quiz</h1>
+        </div>
+    </div>
+
+</header>
+
+    <div class="col-xs-12">
+
+        <div class="image-container">
+            <img src="static/img/thinking-front-page.png" alt="Thinking" />
+        </div>
+
+    </div>
+
+    <br>
+    <div class="col-xs-12">
+
+        <form method="POST" class="form-group" id="login_form">
+            <label for="username"></label>
+            <input type="text" id='username' name="username" placeholder="username" />
+
+            <button type="submit" class="btn btn-primary" id="login_btn">Go to Quiz</button>
+        </form>
+
+        {% with messages = get_flashed_messages() %} {% if messages %}
+        <ul class="flashes flash-group">
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %} {% endwith %} {% endblock %}
+
+    </div>
+</div>

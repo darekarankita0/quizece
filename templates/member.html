@@ -1,0 +1,71 @@
+{% extends 'base.html' %} {% block content %}
+
+<h2>{{ page_title }}</h2>
+<div id="results">
+    <div class="container-fluid">
+
+
+        <div class="col-xs-12">
+
+            <div class="score">
+                <h4>{{ user.username }}, your score is {{ user.score }} / {{ total }}</h4>
+            </div>
+
+        </div>
+
+        <div class="col-xs-12">
+
+            <div class="image-container">
+                <img src="{{ riddle.image_source }}" alt="Clue" />
+            </div>
+
+        </div>
+        <br>
+
+        <div class="col-xs-12">
+
+            <div class="riddle">
+                <p>{{riddle.url }}. {{ riddle.riddle }}</p>
+            </div>
+
+        </div>
+
+        <div class="col-xs-12 ">
+            <div class="row">
+
+                <form method="POST" action="https://milestone-3-patdoc.c9users.io:8080/submit_answer" id="submit_answer_form">
+                    <div class="form-group">
+
+                        <input type="text" name="answer"  id="user_guess"/>
+                        <input type="hidden" id='url' name="url" value="{{ riddle.url }}" />
+                        <input type="hidden" id='solution' name="solution" value="{{ riddle.answer }}" />
+                        <button type="submit" class="btn btn-outline-primary submit" id="submit_btn">Submit</button>
+
+
+                    </div>
+</form>
+                </form id="skip">
+                <div class="form-group">
+                    <form method="POST" action="/skip_question">
+                        <button type="submit" class="btn btn-outline-primary skip" id ="skip_btn">Skip</button>
+                    </form>
+                </div>
+            </div>
+            <div class="flash-message">
+                <div class="flash-group">
+                    {% with messages = get_flashed_messages() %} {% if messages %}
+                    <ul class="flashes">
+                        {% for message in messages %}
+                        <li>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %} {% endwith %}
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
